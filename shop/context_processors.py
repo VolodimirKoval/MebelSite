@@ -7,5 +7,5 @@ def site_name(request):
 
 def footer_name_date(request):
     current_date = datetime.now()
-    return {'footer_name_date': f'Copyright Mebel {current_date.year}'}
+    return {'footer_name_date': f'Copyright © Mebel {current_date.year}'}
     
