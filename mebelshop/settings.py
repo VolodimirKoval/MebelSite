@@ -58,7 +58,9 @@ TEMPLATES = [
                 
                 # My context procesors
                 'shop.context_processors.site_name',
-                'shop.context_processors.footer_name_date'
+                'shop.context_processors.footer_name_date',
+                'shop.context_processors.categories',
+                'shop.context_processors.products',
             ],
         },
     },
